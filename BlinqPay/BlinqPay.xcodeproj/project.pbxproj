@@ -10,12 +10,16 @@
 		4CE23DB32A13987E00D875E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE23DB22A13987E00D875E8 /* AppDelegate.swift */; };
 		4CE23DB52A13987E00D875E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE23DB42A13987E00D875E8 /* SceneDelegate.swift */; };
 		4CE23DB72A13987E00D875E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE23DB62A13987E00D875E8 /* ViewController.swift */; };
-		4CE23DBA2A13987E00D875E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CE23DB82A13987E00D875E8 /* Main.storyboard */; };
 		4CE23DBC2A13988100D875E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CE23DBB2A13988100D875E8 /* Assets.xcassets */; };
 		4CE23DBF2A13988100D875E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CE23DBD2A13988100D875E8 /* LaunchScreen.storyboard */; };
 		4CE23DCA2A13988100D875E8 /* BlinqPayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE23DC92A13988100D875E8 /* BlinqPayTests.swift */; };
 		4CE23DD42A13988100D875E8 /* BlinqPayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE23DD32A13988100D875E8 /* BlinqPayUITests.swift */; };
 		4CE23DD62A13988100D875E8 /* BlinqPayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE23DD52A13988100D875E8 /* BlinqPayUITestsLaunchTests.swift */; };
+		4CE23DE42A13FC7700D875E8 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 4CE23DE32A13FC7700D875E8 /* FirebaseFirestore */; };
+		4CE23DE62A13FD4E00D875E8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CE23DE52A13FD4E00D875E8 /* GoogleService-Info.plist */; };
+		4CE23DE92A1406AA00D875E8 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 4CE23DE82A1406AA00D875E8 /* Realm */; };
+		4CE23DEB2A1406AA00D875E8 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4CE23DEA2A1406AA00D875E8 /* RealmSwift */; };
+		4CE23DEE2A14089900D875E8 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 4CE23DED2A14089900D875E8 /* Swinject */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +44,6 @@
 		4CE23DB22A13987E00D875E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CE23DB42A13987E00D875E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4CE23DB62A13987E00D875E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4CE23DB92A13987E00D875E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4CE23DBB2A13988100D875E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4CE23DBE2A13988100D875E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CE23DC02A13988100D875E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		4CE23DCF2A13988100D875E8 /* BlinqPayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlinqPayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CE23DD32A13988100D875E8 /* BlinqPayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlinqPayUITests.swift; sourceTree = "<group>"; };
 		4CE23DD52A13988100D875E8 /* BlinqPayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlinqPayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4CE23DE52A13FD4E00D875E8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CE23DEB2A1406AA00D875E8 /* RealmSwift in Frameworks */,
+				4CE23DE92A1406AA00D875E8 /* Realm in Frameworks */,
+				4CE23DE42A13FC7700D875E8 /* FirebaseFirestore in Frameworks */,
+				4CE23DEE2A14089900D875E8 /* Swinject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,10 +110,10 @@
 				4CE23DB22A13987E00D875E8 /* AppDelegate.swift */,
 				4CE23DB42A13987E00D875E8 /* SceneDelegate.swift */,
 				4CE23DB62A13987E00D875E8 /* ViewController.swift */,
-				4CE23DB82A13987E00D875E8 /* Main.storyboard */,
 				4CE23DBB2A13988100D875E8 /* Assets.xcassets */,
 				4CE23DBD2A13988100D875E8 /* LaunchScreen.storyboard */,
 				4CE23DC02A13988100D875E8 /* Info.plist */,
+				4CE23DE52A13FD4E00D875E8 /* GoogleService-Info.plist */,
 			);
 			path = BlinqPay;
 			sourceTree = "<group>";
@@ -143,6 +151,12 @@
 			dependencies = (
 			);
 			name = BlinqPay;
+			packageProductDependencies = (
+				4CE23DE32A13FC7700D875E8 /* FirebaseFirestore */,
+				4CE23DE82A1406AA00D875E8 /* Realm */,
+				4CE23DEA2A1406AA00D875E8 /* RealmSwift */,
+				4CE23DED2A14089900D875E8 /* Swinject */,
+			);
 			productName = BlinqPay;
 			productReference = 4CE23DAF2A13987E00D875E8 /* BlinqPay.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +229,11 @@
 				Base,
 			);
 			mainGroup = 4CE23DA62A13987E00D875E8;
+			packageReferences = (
+				4CE23DE22A13FC7700D875E8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				4CE23DE72A1406AA00D875E8 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				4CE23DEC2A14089900D875E8 /* XCRemoteSwiftPackageReference "Swinject" */,
+			);
 			productRefGroup = 4CE23DB02A13987E00D875E8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +252,7 @@
 			files = (
 				4CE23DBF2A13988100D875E8 /* LaunchScreen.storyboard in Resources */,
 				4CE23DBC2A13988100D875E8 /* Assets.xcassets in Resources */,
-				4CE23DBA2A13987E00D875E8 /* Main.storyboard in Resources */,
+				4CE23DE62A13FD4E00D875E8 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +316,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4CE23DB82A13987E00D875E8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4CE23DB92A13987E00D875E8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4CE23DBD2A13988100D875E8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -439,18 +450,18 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BlinqPay/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Blinq Post";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.folahanmi.BlinqPay;
+				PRODUCT_BUNDLE_IDENTIFIER = io.blinqpay.blinqpost;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -467,18 +478,18 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BlinqPay/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Blinq Post";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.folahanmi.BlinqPay;
+				PRODUCT_BUNDLE_IDENTIFIER = io.blinqpay.blinqpost;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -598,6 +609,56 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4CE23DE22A13FC7700D875E8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		4CE23DE72A1406AA00D875E8 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.39.1;
+			};
+		};
+		4CE23DEC2A14089900D875E8 /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4CE23DE32A13FC7700D875E8 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4CE23DE22A13FC7700D875E8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		4CE23DE82A1406AA00D875E8 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4CE23DE72A1406AA00D875E8 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		4CE23DEA2A1406AA00D875E8 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4CE23DE72A1406AA00D875E8 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		4CE23DED2A14089900D875E8 /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4CE23DEC2A14089900D875E8 /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4CE23DA72A13987E00D875E8 /* Project object */;
 }
