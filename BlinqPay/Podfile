@@ -1,0 +1,35 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '11.0'
+
+def networkAndRxPods
+  pod 'RxAlamofire', '~> 5'
+  pod 'RxSwift', '5.1.1'
+  pod 'RxCocoa', '5.1.1'
+end
+
+def utilityPods
+  pod 'IQKeyboardManagerSwift'
+  pod 'SDWebImage', '~> 5.0'
+  pod 'SDWebImageSVGKitPlugin'
+  pod 'Toast-Swift', '~> 5.0.1'
+  pod 'PopupDialog'
+end
+
+target 'BlinqPay' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for BlinqPay
+  networkAndRxPods
+  utilityPods
+
+  target 'BlinqPayTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'BlinqPayUITests' do
+    # Pods for testing
+  end
+
+end

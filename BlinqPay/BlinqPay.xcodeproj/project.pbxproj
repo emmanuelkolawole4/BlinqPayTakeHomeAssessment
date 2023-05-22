@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2470BBD01CA057E5B96E4391 /* Pods_BlinqPay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1639080967ED7AD65D36283 /* Pods_BlinqPay.framework */; };
 		4CE23DB32A13987E00D875E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE23DB22A13987E00D875E8 /* AppDelegate.swift */; };
 		4CE23DB52A13987E00D875E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE23DB42A13987E00D875E8 /* SceneDelegate.swift */; };
 		4CE23DB72A13987E00D875E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE23DB62A13987E00D875E8 /* ViewController.swift */; };
@@ -20,6 +21,44 @@
 		4CE23DE92A1406AA00D875E8 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 4CE23DE82A1406AA00D875E8 /* Realm */; };
 		4CE23DEB2A1406AA00D875E8 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 4CE23DEA2A1406AA00D875E8 /* RealmSwift */; };
 		4CE23DEE2A14089900D875E8 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = 4CE23DED2A14089900D875E8 /* Swinject */; };
+		4CE23DF52A14E29600D875E8 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE23DF42A14E29600D875E8 /* BaseView.swift */; };
+		4CE23DF72A14E69500D875E8 /* UIColor+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE23DF62A14E69500D875E8 /* UIColor+Utils.swift */; };
+		4CE23DFB2A14E9B500D875E8 /* IPreference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE23DFA2A14E9B500D875E8 /* IPreference.swift */; };
+		4CE23DFD2A14E9E100D875E8 /* PreferenceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE23DFC2A14E9E100D875E8 /* PreferenceImpl.swift */; };
+		4CE23DFF2A14EA1200D875E8 /* Preference+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE23DFE2A14EA1200D875E8 /* Preference+Utils.swift */; };
+		4CE23E012A14EA3E00D875E8 /* PreferenceConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE23E002A14EA3E00D875E8 /* PreferenceConstants.swift */; };
+		4CE23E032A14EC8500D875E8 /* AlertMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE23E022A14EC8500D875E8 /* AlertMessage.swift */; };
+		4CE23E052A14ECB200D875E8 /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE23E042A14ECB200D875E8 /* StackView.swift */; };
+		4CE23E072A14ED2300D875E8 /* BaseCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE23E062A14ED2300D875E8 /* BaseCollectionView.swift */; };
+		4CE23E092A14ED8400D875E8 /* Code+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE23E082A14ED8400D875E8 /* Code+Utils.swift */; };
+		4CE23E0B2A14F43100D875E8 /* Numeric+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE23E0A2A14F43100D875E8 /* Numeric+Utils.swift */; };
+		4CE23E0D2A14F4AA00D875E8 /* ScopeFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE23E0C2A14F4AA00D875E8 /* ScopeFunctions.swift */; };
+		4CE23E0F2A14F59200D875E8 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE23E0E2A14F59200D875E8 /* Toast.swift */; };
+		4CE23E152A14FB0700D875E8 /* Product Sans Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CE23E112A14FB0700D875E8 /* Product Sans Italic.ttf */; };
+		4CE23E162A14FB0700D875E8 /* Product Sans Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CE23E122A14FB0700D875E8 /* Product Sans Bold.ttf */; };
+		4CE23E172A14FB0700D875E8 /* Product Sans Bold Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CE23E132A14FB0700D875E8 /* Product Sans Bold Italic.ttf */; };
+		4CE23E182A14FB0700D875E8 /* Product Sans Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CE23E142A14FB0700D875E8 /* Product Sans Regular.ttf */; };
+		4CE23E1A2A14FE6C00D875E8 /* UIFont+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE23E192A14FE6C00D875E8 /* UIFont+Utils.swift */; };
+		4CE23E1C2A14FEC800D875E8 /* UIView+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE23E1B2A14FEC800D875E8 /* UIView+Utils.swift */; };
+		4CE23E1E2A14FF4600D875E8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE23E1D2A14FF4600D875E8 /* Constants.swift */; };
+		4CE23E202A14FFEB00D875E8 /* UIView+AutoLayout+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE23E1F2A14FFEB00D875E8 /* UIView+AutoLayout+Utils.swift */; };
+		4CE23E222A1513D700D875E8 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE23E212A1513D700D875E8 /* CustomButton.swift */; };
+		4CE23E242A1514AD00D875E8 /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE23E232A1514AD00D875E8 /* BaseCollectionViewCell.swift */; };
+		4CE23E262A1514F500D875E8 /* ViewControllerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE23E252A1514F500D875E8 /* ViewControllerType.swift */; };
+		4CE23E292A1515A400D875E8 /* ConfirmationDialogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE23E282A1515A400D875E8 /* ConfirmationDialogViewController.swift */; };
+		4CE23E2B2A1515FF00D875E8 /* Typealiases+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE23E2A2A1515FF00D875E8 /* Typealiases+Utils.swift */; };
+		4CE23E2D2A1516F400D875E8 /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE23E2C2A1516F400D875E8 /* UIViewController+Utils.swift */; };
+		4CE23E2F2A151E4200D875E8 /* UIView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE23E2E2A151E4200D875E8 /* UIView+Animations.swift */; };
+		4CE23E312A151EB600D875E8 /* Date+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE23E302A151EB600D875E8 /* Date+Utils.swift */; };
+		4CE23E342A151F4A00D875E8 /* IInputValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE23E332A151F4A00D875E8 /* IInputValidator.swift */; };
+		4CE23E362A151F6700D875E8 /* InputValidatorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE23E352A151F6700D875E8 /* InputValidatorImpl.swift */; };
+		4CE23E382A151FDD00D875E8 /* ValidationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE23E372A151FDC00D875E8 /* ValidationType.swift */; };
+		4CE23E3A2A151FFB00D875E8 /* ValidationMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE23E392A151FFB00D875E8 /* ValidationMessage.swift */; };
+		4CE23E3C2A1521DA00D875E8 /* BaseScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE23E3B2A1521DA00D875E8 /* BaseScrollView.swift */; };
+		4CE23E3E2A15226600D875E8 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE23E3D2A15226600D875E8 /* CustomTextField.swift */; };
+		4CE23E402A1522BD00D875E8 /* PickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE23E3F2A1522BD00D875E8 /* PickerManager.swift */; };
+		EA4D8C0D827046F5D9071FF6 /* Pods_BlinqPayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C79D2E09EDB4F2BE71F4D0A /* Pods_BlinqPayTests.framework */; };
+		F4B87AC8B1C3E279FA033E92 /* Pods_BlinqPay_BlinqPayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 099B37F2B5BA02C9091BD234 /* Pods_BlinqPay_BlinqPayUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +79,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		099B37F2B5BA02C9091BD234 /* Pods_BlinqPay_BlinqPayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlinqPay_BlinqPayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CE23DAF2A13987E00D875E8 /* BlinqPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlinqPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CE23DB22A13987E00D875E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CE23DB42A13987E00D875E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +93,50 @@
 		4CE23DD32A13988100D875E8 /* BlinqPayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlinqPayUITests.swift; sourceTree = "<group>"; };
 		4CE23DD52A13988100D875E8 /* BlinqPayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlinqPayUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		4CE23DE52A13FD4E00D875E8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4CE23DF42A14E29600D875E8 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		4CE23DF62A14E69500D875E8 /* UIColor+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Utils.swift"; sourceTree = "<group>"; };
+		4CE23DFA2A14E9B500D875E8 /* IPreference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPreference.swift; sourceTree = "<group>"; };
+		4CE23DFC2A14E9E100D875E8 /* PreferenceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceImpl.swift; sourceTree = "<group>"; };
+		4CE23DFE2A14EA1200D875E8 /* Preference+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Preference+Utils.swift"; sourceTree = "<group>"; };
+		4CE23E002A14EA3E00D875E8 /* PreferenceConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceConstants.swift; sourceTree = "<group>"; };
+		4CE23E022A14EC8500D875E8 /* AlertMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertMessage.swift; sourceTree = "<group>"; };
+		4CE23E042A14ECB200D875E8 /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
+		4CE23E062A14ED2300D875E8 /* BaseCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionView.swift; sourceTree = "<group>"; };
+		4CE23E082A14ED8400D875E8 /* Code+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Code+Utils.swift"; sourceTree = "<group>"; };
+		4CE23E0A2A14F43100D875E8 /* Numeric+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Numeric+Utils.swift"; sourceTree = "<group>"; };
+		4CE23E0C2A14F4AA00D875E8 /* ScopeFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScopeFunctions.swift; sourceTree = "<group>"; };
+		4CE23E0E2A14F59200D875E8 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		4CE23E112A14FB0700D875E8 /* Product Sans Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Product Sans Italic.ttf"; sourceTree = "<group>"; };
+		4CE23E122A14FB0700D875E8 /* Product Sans Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Product Sans Bold.ttf"; sourceTree = "<group>"; };
+		4CE23E132A14FB0700D875E8 /* Product Sans Bold Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Product Sans Bold Italic.ttf"; sourceTree = "<group>"; };
+		4CE23E142A14FB0700D875E8 /* Product Sans Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Product Sans Regular.ttf"; sourceTree = "<group>"; };
+		4CE23E192A14FE6C00D875E8 /* UIFont+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Utils.swift"; sourceTree = "<group>"; };
+		4CE23E1B2A14FEC800D875E8 /* UIView+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Utils.swift"; sourceTree = "<group>"; };
+		4CE23E1D2A14FF4600D875E8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4CE23E1F2A14FFEB00D875E8 /* UIView+AutoLayout+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AutoLayout+Utils.swift"; sourceTree = "<group>"; };
+		4CE23E212A1513D700D875E8 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		4CE23E232A1514AD00D875E8 /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		4CE23E252A1514F500D875E8 /* ViewControllerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerType.swift; sourceTree = "<group>"; };
+		4CE23E282A1515A400D875E8 /* ConfirmationDialogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationDialogViewController.swift; sourceTree = "<group>"; };
+		4CE23E2A2A1515FF00D875E8 /* Typealiases+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Typealiases+Utils.swift"; sourceTree = "<group>"; };
+		4CE23E2C2A1516F400D875E8 /* UIViewController+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Utils.swift"; sourceTree = "<group>"; };
+		4CE23E2E2A151E4200D875E8 /* UIView+Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Animations.swift"; sourceTree = "<group>"; };
+		4CE23E302A151EB600D875E8 /* Date+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Utils.swift"; sourceTree = "<group>"; };
+		4CE23E332A151F4A00D875E8 /* IInputValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IInputValidator.swift; sourceTree = "<group>"; };
+		4CE23E352A151F6700D875E8 /* InputValidatorImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputValidatorImpl.swift; sourceTree = "<group>"; };
+		4CE23E372A151FDC00D875E8 /* ValidationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationType.swift; sourceTree = "<group>"; };
+		4CE23E392A151FFB00D875E8 /* ValidationMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationMessage.swift; sourceTree = "<group>"; };
+		4CE23E3B2A1521DA00D875E8 /* BaseScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseScrollView.swift; sourceTree = "<group>"; };
+		4CE23E3D2A15226600D875E8 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		4CE23E3F2A1522BD00D875E8 /* PickerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerManager.swift; sourceTree = "<group>"; };
+		5B6BBE531AB94D5556B2825A /* Pods-BlinqPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlinqPay.debug.xcconfig"; path = "Target Support Files/Pods-BlinqPay/Pods-BlinqPay.debug.xcconfig"; sourceTree = "<group>"; };
+		69AEE59FAF9545A938801D92 /* Pods-BlinqPay-BlinqPayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlinqPay-BlinqPayUITests.debug.xcconfig"; path = "Target Support Files/Pods-BlinqPay-BlinqPayUITests/Pods-BlinqPay-BlinqPayUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		92CFCA3E37533D7D220516C9 /* Pods-BlinqPayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlinqPayTests.debug.xcconfig"; path = "Target Support Files/Pods-BlinqPayTests/Pods-BlinqPayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C79D2E09EDB4F2BE71F4D0A /* Pods_BlinqPayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlinqPayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A324713C1DEBE7504891E743 /* Pods-BlinqPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlinqPay.release.xcconfig"; path = "Target Support Files/Pods-BlinqPay/Pods-BlinqPay.release.xcconfig"; sourceTree = "<group>"; };
+		D220EC56BDF5EFC49E15FD83 /* Pods-BlinqPay-BlinqPayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlinqPay-BlinqPayUITests.release.xcconfig"; path = "Target Support Files/Pods-BlinqPay-BlinqPayUITests/Pods-BlinqPay-BlinqPayUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E1639080967ED7AD65D36283 /* Pods_BlinqPay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlinqPay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD7C93117FDF3C9D84007F68 /* Pods-BlinqPayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlinqPayTests.release.xcconfig"; path = "Target Support Files/Pods-BlinqPayTests/Pods-BlinqPayTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +148,7 @@
 				4CE23DE92A1406AA00D875E8 /* Realm in Frameworks */,
 				4CE23DE42A13FC7700D875E8 /* FirebaseFirestore in Frameworks */,
 				4CE23DEE2A14089900D875E8 /* Swinject in Frameworks */,
+				2470BBD01CA057E5B96E4391 /* Pods_BlinqPay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +156,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA4D8C0D827046F5D9071FF6 /* Pods_BlinqPayTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +164,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4B87AC8B1C3E279FA033E92 /* Pods_BlinqPay_BlinqPayUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +178,8 @@
 				4CE23DC82A13988100D875E8 /* BlinqPayTests */,
 				4CE23DD22A13988100D875E8 /* BlinqPayUITests */,
 				4CE23DB02A13987E00D875E8 /* Products */,
+				C44F109044C804993B6D07B5 /* Pods */,
+				A375217BE062866CB03B66CB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,11 +196,11 @@
 		4CE23DB12A13987E00D875E8 /* BlinqPay */ = {
 			isa = PBXGroup;
 			children = (
-				4CE23DB22A13987E00D875E8 /* AppDelegate.swift */,
-				4CE23DB42A13987E00D875E8 /* SceneDelegate.swift */,
+				4CE23DF82A14E94F00D875E8 /* Datasource */,
+				4CE23DF12A14E19800D875E8 /* Utilities */,
+				4CE23DF02A14E10A00D875E8 /* Resources */,
+				4CE23DEF2A14E0CB00D875E8 /* App Delegate */,
 				4CE23DB62A13987E00D875E8 /* ViewController.swift */,
-				4CE23DBB2A13988100D875E8 /* Assets.xcassets */,
-				4CE23DBD2A13988100D875E8 /* LaunchScreen.storyboard */,
 				4CE23DC02A13988100D875E8 /* Info.plist */,
 				4CE23DE52A13FD4E00D875E8 /* GoogleService-Info.plist */,
 			);
@@ -135,6 +224,145 @@
 			path = BlinqPayUITests;
 			sourceTree = "<group>";
 		};
+		4CE23DEF2A14E0CB00D875E8 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				4CE23DB22A13987E00D875E8 /* AppDelegate.swift */,
+				4CE23DB42A13987E00D875E8 /* SceneDelegate.swift */,
+			);
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
+		4CE23DF02A14E10A00D875E8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4CE23E102A14FAAC00D875E8 /* Fonts */,
+				4CE23DBB2A13988100D875E8 /* Assets.xcassets */,
+				4CE23DBD2A13988100D875E8 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4CE23DF12A14E19800D875E8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4CE23DF32A14E1E700D875E8 /* Common */,
+				4CE23DF22A14E1DC00D875E8 /* Components */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		4CE23DF22A14E1DC00D875E8 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4CE23E272A15158800D875E8 /* Confirmation Dialog */,
+				4CE23DF42A14E29600D875E8 /* BaseView.swift */,
+				4CE23E022A14EC8500D875E8 /* AlertMessage.swift */,
+				4CE23E042A14ECB200D875E8 /* StackView.swift */,
+				4CE23E062A14ED2300D875E8 /* BaseCollectionView.swift */,
+				4CE23E0E2A14F59200D875E8 /* Toast.swift */,
+				4CE23E212A1513D700D875E8 /* CustomButton.swift */,
+				4CE23E232A1514AD00D875E8 /* BaseCollectionViewCell.swift */,
+				4CE23E252A1514F500D875E8 /* ViewControllerType.swift */,
+				4CE23E3B2A1521DA00D875E8 /* BaseScrollView.swift */,
+				4CE23E3D2A15226600D875E8 /* CustomTextField.swift */,
+				4CE23E3F2A1522BD00D875E8 /* PickerManager.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		4CE23DF32A14E1E700D875E8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4CE23E322A151F2E00D875E8 /* Input Validation */,
+				4CE23DF62A14E69500D875E8 /* UIColor+Utils.swift */,
+				4CE23E082A14ED8400D875E8 /* Code+Utils.swift */,
+				4CE23E0A2A14F43100D875E8 /* Numeric+Utils.swift */,
+				4CE23E0C2A14F4AA00D875E8 /* ScopeFunctions.swift */,
+				4CE23E192A14FE6C00D875E8 /* UIFont+Utils.swift */,
+				4CE23E1B2A14FEC800D875E8 /* UIView+Utils.swift */,
+				4CE23E1D2A14FF4600D875E8 /* Constants.swift */,
+				4CE23E1F2A14FFEB00D875E8 /* UIView+AutoLayout+Utils.swift */,
+				4CE23E2A2A1515FF00D875E8 /* Typealiases+Utils.swift */,
+				4CE23E2C2A1516F400D875E8 /* UIViewController+Utils.swift */,
+				4CE23E2E2A151E4200D875E8 /* UIView+Animations.swift */,
+				4CE23E302A151EB600D875E8 /* Date+Utils.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		4CE23DF82A14E94F00D875E8 /* Datasource */ = {
+			isa = PBXGroup;
+			children = (
+				4CE23DF92A14E97D00D875E8 /* Preference */,
+			);
+			path = Datasource;
+			sourceTree = "<group>";
+		};
+		4CE23DF92A14E97D00D875E8 /* Preference */ = {
+			isa = PBXGroup;
+			children = (
+				4CE23DFA2A14E9B500D875E8 /* IPreference.swift */,
+				4CE23DFC2A14E9E100D875E8 /* PreferenceImpl.swift */,
+				4CE23DFE2A14EA1200D875E8 /* Preference+Utils.swift */,
+				4CE23E002A14EA3E00D875E8 /* PreferenceConstants.swift */,
+			);
+			path = Preference;
+			sourceTree = "<group>";
+		};
+		4CE23E102A14FAAC00D875E8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4CE23E132A14FB0700D875E8 /* Product Sans Bold Italic.ttf */,
+				4CE23E122A14FB0700D875E8 /* Product Sans Bold.ttf */,
+				4CE23E112A14FB0700D875E8 /* Product Sans Italic.ttf */,
+				4CE23E142A14FB0700D875E8 /* Product Sans Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		4CE23E272A15158800D875E8 /* Confirmation Dialog */ = {
+			isa = PBXGroup;
+			children = (
+				4CE23E282A1515A400D875E8 /* ConfirmationDialogViewController.swift */,
+			);
+			path = "Confirmation Dialog";
+			sourceTree = "<group>";
+		};
+		4CE23E322A151F2E00D875E8 /* Input Validation */ = {
+			isa = PBXGroup;
+			children = (
+				4CE23E332A151F4A00D875E8 /* IInputValidator.swift */,
+				4CE23E352A151F6700D875E8 /* InputValidatorImpl.swift */,
+				4CE23E372A151FDC00D875E8 /* ValidationType.swift */,
+				4CE23E392A151FFB00D875E8 /* ValidationMessage.swift */,
+			);
+			path = "Input Validation";
+			sourceTree = "<group>";
+		};
+		A375217BE062866CB03B66CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1639080967ED7AD65D36283 /* Pods_BlinqPay.framework */,
+				099B37F2B5BA02C9091BD234 /* Pods_BlinqPay_BlinqPayUITests.framework */,
+				9C79D2E09EDB4F2BE71F4D0A /* Pods_BlinqPayTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C44F109044C804993B6D07B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B6BBE531AB94D5556B2825A /* Pods-BlinqPay.debug.xcconfig */,
+				A324713C1DEBE7504891E743 /* Pods-BlinqPay.release.xcconfig */,
+				69AEE59FAF9545A938801D92 /* Pods-BlinqPay-BlinqPayUITests.debug.xcconfig */,
+				D220EC56BDF5EFC49E15FD83 /* Pods-BlinqPay-BlinqPayUITests.release.xcconfig */,
+				92CFCA3E37533D7D220516C9 /* Pods-BlinqPayTests.debug.xcconfig */,
+				FD7C93117FDF3C9D84007F68 /* Pods-BlinqPayTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,9 +370,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CE23DD92A13988100D875E8 /* Build configuration list for PBXNativeTarget "BlinqPay" */;
 			buildPhases = (
+				76E27A3BB150CFD7443085AE /* [CP] Check Pods Manifest.lock */,
 				4CE23DAB2A13987E00D875E8 /* Sources */,
 				4CE23DAC2A13987E00D875E8 /* Frameworks */,
 				4CE23DAD2A13987E00D875E8 /* Resources */,
+				F5144DB835D695744D6583F6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -165,6 +395,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CE23DDC2A13988100D875E8 /* Build configuration list for PBXNativeTarget "BlinqPayTests" */;
 			buildPhases = (
+				1805A455244AEDA4DB094CC3 /* [CP] Check Pods Manifest.lock */,
 				4CE23DC12A13988100D875E8 /* Sources */,
 				4CE23DC22A13988100D875E8 /* Frameworks */,
 				4CE23DC32A13988100D875E8 /* Resources */,
@@ -183,9 +414,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CE23DDF2A13988100D875E8 /* Build configuration list for PBXNativeTarget "BlinqPayUITests" */;
 			buildPhases = (
+				86F7D53E5A5F12FA84D5CBA5 /* [CP] Check Pods Manifest.lock */,
 				4CE23DCB2A13988100D875E8 /* Sources */,
 				4CE23DCC2A13988100D875E8 /* Frameworks */,
 				4CE23DCD2A13988100D875E8 /* Resources */,
+				9ADA4C5DAED2AF9DCA075F4B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -221,7 +454,7 @@
 				};
 			};
 			buildConfigurationList = 4CE23DAA2A13987E00D875E8 /* Build configuration list for PBXProject "BlinqPay" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -251,8 +484,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CE23DBF2A13988100D875E8 /* LaunchScreen.storyboard in Resources */,
+				4CE23E182A14FB0700D875E8 /* Product Sans Regular.ttf in Resources */,
+				4CE23E172A14FB0700D875E8 /* Product Sans Bold Italic.ttf in Resources */,
+				4CE23E162A14FB0700D875E8 /* Product Sans Bold.ttf in Resources */,
 				4CE23DBC2A13988100D875E8 /* Assets.xcassets in Resources */,
 				4CE23DE62A13FD4E00D875E8 /* GoogleService-Info.plist in Resources */,
+				4CE23E152A14FB0700D875E8 /* Product Sans Italic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,14 +509,149 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1805A455244AEDA4DB094CC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlinqPayTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76E27A3BB150CFD7443085AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlinqPay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86F7D53E5A5F12FA84D5CBA5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlinqPay-BlinqPayUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9ADA4C5DAED2AF9DCA075F4B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlinqPay-BlinqPayUITests/Pods-BlinqPay-BlinqPayUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlinqPay-BlinqPayUITests/Pods-BlinqPay-BlinqPayUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlinqPay-BlinqPayUITests/Pods-BlinqPay-BlinqPayUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5144DB835D695744D6583F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlinqPay/Pods-BlinqPay-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BlinqPay/Pods-BlinqPay-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BlinqPay/Pods-BlinqPay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4CE23DAB2A13987E00D875E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CE23E092A14ED8400D875E8 /* Code+Utils.swift in Sources */,
+				4CE23E262A1514F500D875E8 /* ViewControllerType.swift in Sources */,
+				4CE23E3A2A151FFB00D875E8 /* ValidationMessage.swift in Sources */,
+				4CE23E1E2A14FF4600D875E8 /* Constants.swift in Sources */,
+				4CE23E0F2A14F59200D875E8 /* Toast.swift in Sources */,
+				4CE23E1A2A14FE6C00D875E8 /* UIFont+Utils.swift in Sources */,
+				4CE23E312A151EB600D875E8 /* Date+Utils.swift in Sources */,
+				4CE23DF72A14E69500D875E8 /* UIColor+Utils.swift in Sources */,
+				4CE23E3E2A15226600D875E8 /* CustomTextField.swift in Sources */,
+				4CE23E052A14ECB200D875E8 /* StackView.swift in Sources */,
+				4CE23E2F2A151E4200D875E8 /* UIView+Animations.swift in Sources */,
+				4CE23E012A14EA3E00D875E8 /* PreferenceConstants.swift in Sources */,
+				4CE23E2B2A1515FF00D875E8 /* Typealiases+Utils.swift in Sources */,
+				4CE23E202A14FFEB00D875E8 /* UIView+AutoLayout+Utils.swift in Sources */,
+				4CE23E382A151FDD00D875E8 /* ValidationType.swift in Sources */,
 				4CE23DB72A13987E00D875E8 /* ViewController.swift in Sources */,
+				4CE23E3C2A1521DA00D875E8 /* BaseScrollView.swift in Sources */,
 				4CE23DB32A13987E00D875E8 /* AppDelegate.swift in Sources */,
+				4CE23E072A14ED2300D875E8 /* BaseCollectionView.swift in Sources */,
+				4CE23E222A1513D700D875E8 /* CustomButton.swift in Sources */,
+				4CE23DFD2A14E9E100D875E8 /* PreferenceImpl.swift in Sources */,
+				4CE23DFF2A14EA1200D875E8 /* Preference+Utils.swift in Sources */,
+				4CE23E032A14EC8500D875E8 /* AlertMessage.swift in Sources */,
+				4CE23E242A1514AD00D875E8 /* BaseCollectionViewCell.swift in Sources */,
+				4CE23E292A1515A400D875E8 /* ConfirmationDialogViewController.swift in Sources */,
 				4CE23DB52A13987E00D875E8 /* SceneDelegate.swift in Sources */,
+				4CE23E342A151F4A00D875E8 /* IInputValidator.swift in Sources */,
+				4CE23E402A1522BD00D875E8 /* PickerManager.swift in Sources */,
+				4CE23E0D2A14F4AA00D875E8 /* ScopeFunctions.swift in Sources */,
+				4CE23E0B2A14F43100D875E8 /* Numeric+Utils.swift in Sources */,
+				4CE23E362A151F6700D875E8 /* InputValidatorImpl.swift in Sources */,
+				4CE23DFB2A14E9B500D875E8 /* IPreference.swift in Sources */,
+				4CE23E1C2A14FEC800D875E8 /* UIView+Utils.swift in Sources */,
+				4CE23E2D2A1516F400D875E8 /* UIViewController+Utils.swift in Sources */,
+				4CE23DF52A14E29600D875E8 /* BaseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +815,7 @@
 		};
 		4CE23DDA2A13988100D875E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B6BBE531AB94D5556B2825A /* Pods-BlinqPay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +844,7 @@
 		};
 		4CE23DDB2A13988100D875E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A324713C1DEBE7504891E743 /* Pods-BlinqPay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -499,6 +873,7 @@
 		};
 		4CE23DDD2A13988100D875E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92CFCA3E37533D7D220516C9 /* Pods-BlinqPayTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -518,6 +893,7 @@
 		};
 		4CE23DDE2A13988100D875E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD7C93117FDF3C9D84007F68 /* Pods-BlinqPayTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -537,6 +913,7 @@
 		};
 		4CE23DE02A13988100D875E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69AEE59FAF9545A938801D92 /* Pods-BlinqPay-BlinqPayUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -554,6 +931,7 @@
 		};
 		4CE23DE12A13988100D875E8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D220EC56BDF5EFC49E15FD83 /* Pods-BlinqPay-BlinqPayUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

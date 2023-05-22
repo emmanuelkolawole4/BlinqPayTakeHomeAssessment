@@ -1,0 +1,74 @@
+PODS:
+  - Alamofire (5.6.4)
+  - CocoaLumberjack (3.8.0):
+    - CocoaLumberjack/Core (= 3.8.0)
+  - CocoaLumberjack/Core (3.8.0)
+  - DynamicBlurView (4.1.0)
+  - IQKeyboardManagerSwift (6.5.11)
+  - PopupDialog (1.1.1):
+    - DynamicBlurView (~> 4.0)
+  - RxAlamofire (5.7.1):
+    - RxAlamofire/Core (= 5.7.1)
+  - RxAlamofire/Core (5.7.1):
+    - Alamofire (~> 5.4)
+    - RxSwift (~> 5.1)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.3):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - SDWebImage (5.15.6):
+    - SDWebImage/Core (= 5.15.6)
+  - SDWebImage/Core (5.15.6)
+  - SDWebImageSVGKitPlugin (1.4.0):
+    - SDWebImage/Core (~> 5.10)
+    - SVGKit (~> 3.0)
+  - SVGKit (3.0.0):
+    - CocoaLumberjack (~> 3.0)
+  - Toast-Swift (5.0.1)
+
+DEPENDENCIES:
+  - IQKeyboardManagerSwift
+  - PopupDialog
+  - RxAlamofire (~> 5)
+  - RxCocoa (= 5.1.1)
+  - RxSwift (= 5.1.1)
+  - SDWebImage (~> 5.0)
+  - SDWebImageSVGKitPlugin
+  - Toast-Swift (~> 5.0.1)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CocoaLumberjack
+    - DynamicBlurView
+    - IQKeyboardManagerSwift
+    - PopupDialog
+    - RxAlamofire
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SDWebImage
+    - SDWebImageSVGKitPlugin
+    - SVGKit
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  CocoaLumberjack: 78abfb691154e2a9df8ded4350d504ee19d90732
+  DynamicBlurView: 58e18fae80bb614e34681a4486870e7d257b62e8
+  IQKeyboardManagerSwift: c7955c0bdbf7b2eb29bb7daaa44e3d90f55a9a85
+  PopupDialog: 720c92befd8bc23c13442254945213db5612f149
+  RxAlamofire: 8e144c62dcc01d68dcb366bfc542eb6dd46bab78
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: 5a18c2eb2d68326ebaf0112f80d837ae41b92b97
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SDWebImage: d47d81bea8a77187896b620dc79c3c528e8906b9
+  SDWebImageSVGKitPlugin: 7542dd07c344ec3415ded0461a1161a6f087e0c9
+  SVGKit: 1ad7513f8c74d9652f94ed64ddecda1a23864dea
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+
+PODFILE CHECKSUM: 830ddd83b887cc168c9a5fa268b2c97d801b6d06
+
+COCOAPODS: 1.12.1
