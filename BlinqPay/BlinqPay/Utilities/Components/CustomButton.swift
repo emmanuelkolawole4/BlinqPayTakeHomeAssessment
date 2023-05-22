@@ -15,7 +15,7 @@ class CustomButton: UIButton {
         super.init(frame: frame)
     }
     
-    convenience init(title: String? = nil, attributedTitle: NSAttributedString? = nil, font: UIFont = .productSansBold(size: 15), backgroundColor: UIColor = .primaryGreen, textColor: UIColor = .primaryTextColor, borderWidth: CGFloat? = nil, borderColor: UIColor? = nil, cornerRadius: CGFloat = 5, height: CGFloat? = nil, width: CGFloat? = nil, size: CGFloat? = nil, image: UIImage? = nil, tintColor: UIColor? = nil, isEnabled: Bool = true, tapAction: (() -> Void)? = nil) {
+    convenience init(title: String? = nil, attributedTitle: NSAttributedString? = nil, font: UIFont = .productSansBold(size: 16), backgroundColor: UIColor = .primaryGreen, textColor: UIColor = .primaryTextColor, borderWidth: CGFloat? = nil, borderColor: UIColor? = nil, cornerRadius: CGFloat = 5, height: CGFloat? = nil, width: CGFloat? = nil, size: CGFloat? = nil, image: UIImage? = nil, tintColor: UIColor? = nil, isEnabled: Bool = true, tapAction: (() -> Void)? = nil) {
         self.init(type: .system)
         self.backgroundColor = backgroundColor
         viewCornerRadius = cornerRadius

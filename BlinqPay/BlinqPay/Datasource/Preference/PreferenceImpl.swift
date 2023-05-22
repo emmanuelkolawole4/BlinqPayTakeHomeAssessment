@@ -9,4 +9,6 @@ import Foundation
 
 struct PreferenceImpl: IPreference {
     
+    @UserDefaultPrimitive(key: PreferenceConstants.ACCESS_TOKEN, default: "")
+    var accessToken: String
 }

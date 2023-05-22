@@ -13,6 +13,8 @@ def utilityPods
   pod 'SDWebImageSVGKitPlugin'
   pod 'Toast-Swift', '~> 5.0.1'
   pod 'PopupDialog'
+  pod 'HorizontalProgressBar'
+  pod 'lottie-ios', '3.1.1'
 end
 
 target 'BlinqPay' do

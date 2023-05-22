@@ -8,7 +8,7 @@
 import Foundation
 
 struct PreferenceConstants {
-    
+    static let ACCESS_TOKEN = "AccessToken"
 }
 
 enum PreferenceKey: String {

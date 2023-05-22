@@ -12,9 +12,9 @@ extension UIColor {
     @nonobjc class var primaryGreen: UIColor{
         return UIColor("#55A99D")
     }
-    @nonobjc class var primaryTextColor: UIColor{
-        return UIColor("#3B3B3B")
-    }
+//    @nonobjc class var primaryTextColor: UIColor{
+//        return UIColor("#3B3B3B")
+//    }
     
     @nonobjc class var primaryGrey: UIColor {
         return UIColor("#A1A1A1")
@@ -24,28 +24,28 @@ extension UIColor {
     
     static var appBackground: UIColor { UIColor("#FFFFFF") }
     
-    static var aLabel: UIColor {
+    static var primaryTextColor: UIColor {
         if #available(iOS 13, *) {
             return .label
         }
         return UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 1.0)
     }
     
-    static var aSecondaryLabel: UIColor {
+    static var secondaryTextColor: UIColor {
         if #available(iOS 13, *) {
             return .secondaryLabel
         }
         return UIColor(red: 0.23529411764705882, green: 0.23529411764705882, blue: 0.2627450980392157, alpha: 0.6)
     }
     
-    static var aTertiaryLabel: UIColor {
+    static var tertiaryTextColor: UIColor {
         if #available(iOS 13, *) {
             return .tertiaryLabel
         }
         return UIColor(red: 0.23529411764705882, green: 0.23529411764705882, blue: 0.2627450980392157, alpha: 0.3)
     }
     
-    static var aQuaternaryLabel: UIColor {
+    static var quaternaryTextColor: UIColor {
         if #available(iOS 13, *) {
             return .quaternaryLabel
         }

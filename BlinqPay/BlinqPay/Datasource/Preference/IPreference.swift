@@ -9,4 +9,5 @@ import Foundation
 
 protocol IPreference {
     
+    var accessToken: String { get set }
 }

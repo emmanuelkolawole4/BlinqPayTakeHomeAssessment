@@ -6,12 +6,17 @@
 //
 
 import UIKit
+import Swinject
 
 @available(iOS 13.0, *)
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    static let dependencyContainer: Container = {
+        let container = Container()
+        DependencyContainer.configure(using: container)
+        return container
+    }()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
