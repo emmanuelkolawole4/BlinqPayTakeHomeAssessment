@@ -10,7 +10,7 @@ import UIKit
 @available(iOS 13.0, *)
 class CustomTextField: BaseView {
 
-    fileprivate let titleLabel = UILabel(text: "Title Label", font: .productSansRegular(size: 14), numberOfLines: 0, color: .primaryTextColor, alignment: .left)
+    fileprivate let titleLabel = UILabel(text: "Title Label", font: .productSansRegular(size: 18), numberOfLines: 0, color: .primaryTextColor, alignment: .left)
     fileprivate let errorLabel = UILabel(text: "Error Label", font: .productSansRegular(size: 13), numberOfLines: 0, color: .systemRed, alignment: .left)
     let textField = TextField()
 //    fileprivate let passwordIconImageView = UIImageView(image: R.image.eye_open_icon(), tintColor: .primaryTextColor, size: 22)
@@ -39,7 +39,7 @@ class CustomTextField: BaseView {
         backgroundColor = .clear
         titleLabel.text = title
         with(textField) {
-            $0.backgroundColor = .clear
+            $0.backgroundColor = UIColor("#DCF6F3").withAlphaComponent(0.7)
             $0.keyboardType = keyboardType
             $0.attributedPlaceholder = NSAttributedString(string: placeholder, attributes: [.font: UIFont.productSansRegular(size: 14), .foregroundColor: UIColor.aPlaceholderText])
             $0.font = .productSansRegular(size: 15)
@@ -131,7 +131,7 @@ class CustomTextField: BaseView {
             $0.constraintHeight(constant: 50)
             $0.viewCornerRadius = 8
             $0.viewBorderWidth = 1
-            $0.borderColor = .primaryTextColor.withAlphaComponent(0.7)
+            $0.borderColor = UIColor("#DCF6F3") //.primaryTextColor.withAlphaComponent(0.7)
             $0.clipsToBounds = true
         }
         errorLabel.do {

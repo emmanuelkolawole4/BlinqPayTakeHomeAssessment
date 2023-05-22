@@ -65,6 +65,19 @@ class InputValidatorImpl: IInputValidator {
         return ValidationMessage(isValid: true, message: "", validationType: .name)
     }
     
+    func validateUsername(_ username: String) -> ValidationMessage {
+        let nameRegex = "[\\d|\\w]{3,20}" //"[A-Za-z ]{2,}"
+        let namePredicate = NSPredicate(format: "SELF MATCHES %@", nameRegex)
+        
+        if username.isEmpty {
+            return ValidationMessage(message: "Cannot be empty", validationType: .name)
+        } else if !namePredicate.evaluate(with: username.trimmingCharacters(in: .whitespacesAndNewlines)) {
+            return ValidationMessage(message: "Must be at least 3 characters(letters, numbers and underscore only)", validationType: .name)
+        }
+        
+        return ValidationMessage(isValid: true, message: "", validationType: .name)
+    }
+    
     func validateAddress(_ address: String) -> ValidationMessage {
         let addressRegex = "[0-9A-Za-z,. ]{2,}"
         let addressPredicate = NSPredicate(format: "SELF MATCHES %@", addressRegex)
@@ -166,6 +179,8 @@ class InputValidatorImpl: IInputValidator {
             return validateMileage(value, max: max)
         case .vin(let maxLength):
             return validateVin(value: value, with: maxLength)
+        case .username:
+            return validateUsername(value)
         }
     }
     

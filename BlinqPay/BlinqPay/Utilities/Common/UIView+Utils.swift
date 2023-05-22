@@ -285,7 +285,7 @@ extension UICollectionView {
     func setEmptyMessage(_ message: String = Constants.DATA_NOT_FOUND) {
         let messageLabel = UILabel(frame: CGRect(x: 0, y: 0, width: self.bounds.size.width, height: self.bounds.size.height))
         messageLabel.text = message
-        messageLabel.textColor = .aLabel
+        messageLabel.textColor = .primaryTextColor
         messageLabel.numberOfLines = 0
         messageLabel.textAlignment = .center
         messageLabel.font = .productSansRegular(size: 15)
@@ -324,7 +324,7 @@ extension UITableView {
     func setEmptyMessage(_ message: String = Constants.DATA_NOT_FOUND, separatorStyle: UITableViewCell.SeparatorStyle = .none) {
         let messageLabel = UILabel(frame: CGRect(x: 0, y: 0, width: self.bounds.size.width, height: self.bounds.size.height))
         messageLabel.text = message
-        messageLabel.textColor = .aLabel
+        messageLabel.textColor = .primaryTextColor
         messageLabel.numberOfLines = 0
         messageLabel.textAlignment = .center
         messageLabel.font = .productSansRegular(size: 15)
@@ -614,7 +614,7 @@ extension UISearchBar {
 
 extension UILabel {
     
-    convenience init(text: String, font: UIFont = .productSansRegular(size: 16), numberOfLines: Int = 1, color: UIColor = .aLabel, alignment: NSTextAlignment = .center, adjustsFontSizeToFitWidth: Bool = true, underlined: Bool = false, huggingPriority: UILayoutPriority? = nil, huggingAxis: NSLayoutConstraint.Axis? = nil) {
+    convenience init(text: String, font: UIFont = .productSansRegular(size: 16), numberOfLines: Int = 1, color: UIColor = .primaryTextColor, alignment: NSTextAlignment = .center, adjustsFontSizeToFitWidth: Bool = true, underlined: Bool = false, huggingPriority: UILayoutPriority? = nil, huggingAxis: NSLayoutConstraint.Axis? = nil) {
         self.init(frame: .zero)
         self.text = text
         self.textColor = color
@@ -812,7 +812,7 @@ extension UICollectionView {
 }
 
 extension UIProgressView {
-    convenience init(style: UIProgressView.Style = .bar, value: Float? = nil, progressTintColor: UIColor = .primaryTextColor, trackTintColor: UIColor = .aSecondaryLabel.withAlphaComponent(0.4), height: CGFloat? = nil, width: CGFloat? = nil) {
+    convenience init(style: UIProgressView.Style = .bar, value: Float? = nil, progressTintColor: UIColor = .primaryTextColor, trackTintColor: UIColor = .secondaryTextColor.withAlphaComponent(0.4), height: CGFloat? = nil, width: CGFloat? = nil) {
         self.init()
         progressViewStyle = .bar
         if let value = value {

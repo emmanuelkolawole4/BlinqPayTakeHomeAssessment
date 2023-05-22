@@ -4,7 +4,9 @@ PODS:
     - CocoaLumberjack/Core (= 3.8.0)
   - CocoaLumberjack/Core (3.8.0)
   - DynamicBlurView (4.1.0)
+  - HorizontalProgressBar (1.0.5)
   - IQKeyboardManagerSwift (6.5.11)
+  - lottie-ios (3.1.1)
   - PopupDialog (1.1.1):
     - DynamicBlurView (~> 4.0)
   - RxAlamofire (5.7.1):
@@ -29,7 +31,9 @@ PODS:
   - Toast-Swift (5.0.1)
 
 DEPENDENCIES:
+  - HorizontalProgressBar
   - IQKeyboardManagerSwift
+  - lottie-ios (= 3.1.1)
   - PopupDialog
   - RxAlamofire (~> 5)
   - RxCocoa (= 5.1.1)
@@ -43,7 +47,9 @@ SPEC REPOS:
     - Alamofire
     - CocoaLumberjack
     - DynamicBlurView
+    - HorizontalProgressBar
     - IQKeyboardManagerSwift
+    - lottie-ios
     - PopupDialog
     - RxAlamofire
     - RxCocoa
@@ -58,7 +64,9 @@ SPEC CHECKSUMS:
   Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
   CocoaLumberjack: 78abfb691154e2a9df8ded4350d504ee19d90732
   DynamicBlurView: 58e18fae80bb614e34681a4486870e7d257b62e8
+  HorizontalProgressBar: f0e3d36051656651d1430d2cf5e0146fc4895f15
   IQKeyboardManagerSwift: c7955c0bdbf7b2eb29bb7daaa44e3d90f55a9a85
+  lottie-ios: 43a472d22b2dd2bed292cc4010c0b4d2e66d3ba8
   PopupDialog: 720c92befd8bc23c13442254945213db5612f149
   RxAlamofire: 8e144c62dcc01d68dcb366bfc542eb6dd46bab78
   RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
@@ -69,6 +77,6 @@ SPEC CHECKSUMS:
   SVGKit: 1ad7513f8c74d9652f94ed64ddecda1a23864dea
   Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
 
-PODFILE CHECKSUM: 830ddd83b887cc168c9a5fa268b2c97d801b6d06
+PODFILE CHECKSUM: e18cd199b41a58ad0dcd52b7b59152306eacff35
 
 COCOAPODS: 1.12.1

@@ -14,5 +14,10 @@ struct Constants {
     static let YES = "Yes"
     static let NO = "No"
     static let CHOOSE = "Choose"
+    static let LOGIN = "Login"
+    static let LOG_IN = "Log In"
+    static let PLEASE_ENTER_YOUR_USERNAME = "Please enter your username to log in to your account"
+    static let USERNAME = "Username"
+    static let ENTER_USERNAME = "Enter username"
 }
 
