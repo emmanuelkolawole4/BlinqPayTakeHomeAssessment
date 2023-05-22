@@ -1,0 +1,6 @@
+framework module Pods_BlinqPayTests {
+  umbrella header "Pods-BlinqPayTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
