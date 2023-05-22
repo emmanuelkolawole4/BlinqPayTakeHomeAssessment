@@ -14,6 +14,7 @@ class HomeViewController: BaseViewController<HomeView, IHomeViewModel> {
         super.configureViews()
         setBackgroundColor()
         title = "Feed"
+        navigationController?.tabBarItem.title = nil
     }
 
 }

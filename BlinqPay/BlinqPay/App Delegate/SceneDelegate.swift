@@ -43,3 +43,35 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 }
 
+import SwiftUI
+
+@available(iOS 13.0.0, *)
+struct PreviewViewController_Previews: PreviewProvider {
+    static var previews: some View {
+        ViewControllerPreview {
+            DashboardTabController()
+        }
+    }
+}
+
+@available(iOS 13.0, *)
+struct ViewControllerPreview: UIViewControllerRepresentable {
+    
+    typealias UIViewControllerType = UIViewController
+    
+    
+    let viewControllerBuilder: () -> UIViewController
+
+    init(_ viewControllerBuilder: @escaping () -> UIViewController) {
+        self.viewControllerBuilder = viewControllerBuilder
+    }
+    
+    func makeUIViewController(context: Context) -> UIViewController {
+        return viewControllerBuilder()
+    }
+    
+    func updateUIViewController(_ uiViewController: UIViewController, context: Context) {
+        // Not needed
+    }
+    
+}
