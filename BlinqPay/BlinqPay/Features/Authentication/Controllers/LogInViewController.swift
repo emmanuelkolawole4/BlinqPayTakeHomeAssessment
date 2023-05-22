@@ -14,8 +14,9 @@ class LogInViewController: BaseViewController<LoginView, IAuthViewModel> {
         super.configureViews()
         kview.do {
             $0.loginTapHandler = { [weak self] username in
-                print(username)
-                self?.show(DashboardTabController(), sender: self)
+                let vc = DashboardTabController()
+                vc.modalPresentationStyle = .fullScreen
+                self?.show(vc, sender: self)
             }
         }
     }

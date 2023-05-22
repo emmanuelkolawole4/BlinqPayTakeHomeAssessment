@@ -10,6 +10,10 @@ import UIKit
 @available(iOS 13.0, *)
 class HomeViewController: BaseViewController<HomeView, IHomeViewModel> {
     
-    
+    override func configureViews() {
+        super.configureViews()
+        setBackgroundColor()
+        title = "Feed"
+    }
 
 }
