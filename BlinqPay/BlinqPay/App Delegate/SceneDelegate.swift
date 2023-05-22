@@ -14,7 +14,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
-//        setupTabbarController()
         makeWindow(withScene: windowScene)
     }
 
@@ -43,3 +42,35 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     }
 }
 
+import SwiftUI
+
+@available(iOS 13.0.0, *)
+struct PreviewViewController_Previews: PreviewProvider {
+    static var previews: some View {
+        ViewControllerPreview {
+            DashboardTabController()
+        }
+    }
+}
+
+@available(iOS 13.0, *)
+struct ViewControllerPreview: UIViewControllerRepresentable {
+    
+    typealias UIViewControllerType = UIViewController
+    
+    
+    let viewControllerBuilder: () -> UIViewController
+
+    init(_ viewControllerBuilder: @escaping () -> UIViewController) {
+        self.viewControllerBuilder = viewControllerBuilder
+    }
+    
+    func makeUIViewController(context: Context) -> UIViewController {
+        return viewControllerBuilder()
+    }
+    
+    func updateUIViewController(_ uiViewController: UIViewController, context: Context) {
+        // Not needed
+    }
+    
+}

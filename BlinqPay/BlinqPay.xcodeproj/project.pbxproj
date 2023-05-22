@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		2470BBD01CA057E5B96E4391 /* Pods_BlinqPay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1639080967ED7AD65D36283 /* Pods_BlinqPay.framework */; };
+		4C7BE9F82A1BA907004E6589 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7BE9F72A1BA907004E6589 /* HomeCollectionViewCell.swift */; };
+		4C7BE9FB2A1BBBD0004E6589 /* IconTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7BE9FA2A1BBBD0004E6589 /* IconTextView.swift */; };
+		4C7BE9FD2A1BBBEF004E6589 /* IconPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7BE9FC2A1BBBEF004E6589 /* IconPosition.swift */; };
+		4C7BE9FF2A1BBC20004E6589 /* IconUILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7BE9FE2A1BBC20004E6589 /* IconUILabel.swift */; };
 		4CE23DB32A13987E00D875E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE23DB22A13987E00D875E8 /* AppDelegate.swift */; };
 		4CE23DB52A13987E00D875E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE23DB42A13987E00D875E8 /* SceneDelegate.swift */; };
 		4CE23DB72A13987E00D875E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE23DB62A13987E00D875E8 /* ViewController.swift */; };
@@ -105,6 +109,10 @@
 
 /* Begin PBXFileReference section */
 		099B37F2B5BA02C9091BD234 /* Pods_BlinqPay_BlinqPayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlinqPay_BlinqPayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C7BE9F72A1BA907004E6589 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		4C7BE9FA2A1BBBD0004E6589 /* IconTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconTextView.swift; sourceTree = "<group>"; };
+		4C7BE9FC2A1BBBEF004E6589 /* IconPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconPosition.swift; sourceTree = "<group>"; };
+		4C7BE9FE2A1BBC20004E6589 /* IconUILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconUILabel.swift; sourceTree = "<group>"; };
 		4CE23DAF2A13987E00D875E8 /* BlinqPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlinqPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CE23DB22A13987E00D875E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CE23DB42A13987E00D875E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -221,6 +229,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C7BE9F92A1BBBAC004E6589 /* IconTextView */ = {
+			isa = PBXGroup;
+			children = (
+				4C7BE9FA2A1BBBD0004E6589 /* IconTextView.swift */,
+				4C7BE9FC2A1BBBEF004E6589 /* IconPosition.swift */,
+				4C7BE9FE2A1BBC20004E6589 /* IconUILabel.swift */,
+			);
+			path = IconTextView;
+			sourceTree = "<group>";
+		};
 		4CE23DA62A13987E00D875E8 = {
 			isa = PBXGroup;
 			children = (
@@ -308,6 +326,7 @@
 		4CE23DF22A14E1DC00D875E8 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				4C7BE9F92A1BBBAC004E6589 /* IconTextView */,
 				4CE23E272A15158800D875E8 /* Confirmation Dialog */,
 				4CE23DF42A14E29600D875E8 /* BaseView.swift */,
 				4CE23E022A14EC8500D875E8 /* AlertMessage.swift */,
@@ -579,6 +598,7 @@
 			isa = PBXGroup;
 			children = (
 				4CE23E832A1B89A600D875E8 /* HomeView.swift */,
+				4C7BE9F72A1BA907004E6589 /* HomeCollectionViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -872,6 +892,7 @@
 				4CE23DF72A14E69500D875E8 /* UIColor+Utils.swift in Sources */,
 				4CE23E562A1B589100D875E8 /* IAuthRemoteDatasource.swift in Sources */,
 				4CE23E4C2A1B555900D875E8 /* AuthNavRoute.swift in Sources */,
+				4C7BE9FB2A1BBBD0004E6589 /* IconTextView.swift in Sources */,
 				4CE23E3E2A15226600D875E8 /* CustomTextField.swift in Sources */,
 				4CE23E882A1B926D00D875E8 /* HomeViewModelImpl.swift in Sources */,
 				4CE23E6A2A1B6DF600D875E8 /* AuthRemoteDatasourceImpl.swift in Sources */,
@@ -883,6 +904,7 @@
 				4CE23E012A14EA3E00D875E8 /* PreferenceConstants.swift in Sources */,
 				4CE23E2B2A1515FF00D875E8 /* Typealiases+Utils.swift in Sources */,
 				4CE23E202A14FFEB00D875E8 /* UIView+AutoLayout+Utils.swift in Sources */,
+				4C7BE9F82A1BA907004E6589 /* HomeCollectionViewCell.swift in Sources */,
 				4CE23E382A151FDD00D875E8 /* ValidationType.swift in Sources */,
 				4CE23E662A1B6A1900D875E8 /* BPError.swift in Sources */,
 				4CE23DB72A13987E00D875E8 /* ViewController.swift in Sources */,
@@ -896,6 +918,7 @@
 				4CE23E682A1B6D0700D875E8 /* CommonDependencyContainer.swift in Sources */,
 				4CE23E602A1B677B00D875E8 /* Loader.swift in Sources */,
 				4CE23DFD2A14E9E100D875E8 /* PreferenceImpl.swift in Sources */,
+				4C7BE9FD2A1BBBEF004E6589 /* IconPosition.swift in Sources */,
 				4CE23DFF2A14EA1200D875E8 /* Preference+Utils.swift in Sources */,
 				4CE23E032A14EC8500D875E8 /* AlertMessage.swift in Sources */,
 				4CE23E242A1514AD00D875E8 /* BaseCollectionViewCell.swift in Sources */,
@@ -908,6 +931,7 @@
 				4CE23E342A151F4A00D875E8 /* IInputValidator.swift in Sources */,
 				4CE23E622A1B68E000D875E8 /* IBaseViewModel.swift in Sources */,
 				4CE23E6D2A1B6E2C00D875E8 /* BaseRemoteDatasource.swift in Sources */,
+				4C7BE9FF2A1BBC20004E6589 /* IconUILabel.swift in Sources */,
 				4CE23E402A1522BD00D875E8 /* PickerManager.swift in Sources */,
 				4CE23E0D2A14F4AA00D875E8 /* ScopeFunctions.swift in Sources */,
 				4CE23E0B2A14F43100D875E8 /* Numeric+Utils.swift in Sources */,

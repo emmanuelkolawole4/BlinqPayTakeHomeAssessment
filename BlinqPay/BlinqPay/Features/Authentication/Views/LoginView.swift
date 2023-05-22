@@ -21,6 +21,7 @@ class LoginView: BaseScrollView {
     }()
     
     override func addConstraints() {
+        super.addConstraints()
         _addSubviews(loginText, pleaseEnterUsernameSubtitleText, usernameTextField, logInButton)
         loginText.anchor(top: _topAnchor, leading: _leadingAnchor, trailing: _trailingAnchor, padding: ._init(top: 90, left: 35, right: 35))
         pleaseEnterUsernameSubtitleText.anchor(top: loginText.bottomAnchor, leading: loginText.leadingAnchor, trailing: loginText.trailingAnchor, padding: ._init(top: 8))
