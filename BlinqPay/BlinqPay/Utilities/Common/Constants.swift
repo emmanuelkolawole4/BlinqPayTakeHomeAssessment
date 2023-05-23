@@ -19,5 +19,7 @@ struct Constants {
     static let PLEASE_ENTER_YOUR_USERNAME = "Please enter your username to log in to your account"
     static let USERNAME = "Username"
     static let ENTER_USERNAME = "Enter username"
+    static let START_CHAT = "Start Chat"
+    static let RECEPIENT_USERNAME = "Recipient’s username"
 }
 

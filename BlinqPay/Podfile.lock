@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (5.6.4)
+  - BottomPopup (0.7.0)
   - CocoaLumberjack (3.8.0):
     - CocoaLumberjack/Core (= 3.8.0)
   - CocoaLumberjack/Core (3.8.0)
@@ -31,6 +32,7 @@ PODS:
   - Toast-Swift (5.0.1)
 
 DEPENDENCIES:
+  - BottomPopup
   - HorizontalProgressBar
   - IQKeyboardManagerSwift
   - lottie-ios (= 3.1.1)
@@ -45,6 +47,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
+    - BottomPopup
     - CocoaLumberjack
     - DynamicBlurView
     - HorizontalProgressBar
@@ -62,6 +65,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  BottomPopup: fe3e284628532f99093ae68c592c6b9d392c972d
   CocoaLumberjack: 78abfb691154e2a9df8ded4350d504ee19d90732
   DynamicBlurView: 58e18fae80bb614e34681a4486870e7d257b62e8
   HorizontalProgressBar: f0e3d36051656651d1430d2cf5e0146fc4895f15
@@ -77,6 +81,6 @@ SPEC CHECKSUMS:
   SVGKit: 1ad7513f8c74d9652f94ed64ddecda1a23864dea
   Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
 
-PODFILE CHECKSUM: e18cd199b41a58ad0dcd52b7b59152306eacff35
+PODFILE CHECKSUM: 8defb925763c9ea5bd87c74f67fb663c2cd4587a
 
 COCOAPODS: 1.12.1

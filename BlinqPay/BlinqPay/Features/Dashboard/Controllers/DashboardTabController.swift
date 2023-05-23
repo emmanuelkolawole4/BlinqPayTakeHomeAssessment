@@ -16,8 +16,8 @@ class DashboardTabController: UITabBarController {
     }
     
     private func setupTabs() {
-        let homeVC = AppDelegate.dependencyContainer.homeController //HomeViewController()
-        let chatVC = AppDelegate.dependencyContainer.chatController //ChatViewController()
+        let homeVC = AppDelegate.dependencyContainer.homeController
+        let chatVC = AppDelegate.dependencyContainer.chatListController
         let mediaVC = AppDelegate.dependencyContainer.mediaController //MediaViewController()
         let settingsVC = AppDelegate.dependencyContainer.settingsController //SettingsViewController()
         
