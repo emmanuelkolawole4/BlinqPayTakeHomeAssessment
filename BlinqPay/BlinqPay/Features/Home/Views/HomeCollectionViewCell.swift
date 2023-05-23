@@ -12,9 +12,9 @@ class HomeCollectionViewCell: BaseCollectionViewCell {
     
     fileprivate let avatarImageView = UIImageView(image: UIImage(systemName: "person"), size: 45, cornerRadius: 10)
     fileprivate let nameLabel = UILabel(text: "Cynthia Kulmax", font: .productSansBold(size: 16), color: .primaryTextColor, alignment: .left)
-    fileprivate let usernameLabel = UILabel(text: "@quenme", font: .productSansRegular(size: 11), color: .primaryGrey, alignment: .left)
-    fileprivate let locationLabel = UILabel(text: "Lagos, Nigeria", font: .productSansRegular(size: 11), color: .primaryGrey, alignment: .left)
-    fileprivate let timestampLabel = UILabel(text: "2m ago", font: .productSansRegular(size: 11), color: .primaryGrey, alignment: .left)
+    fileprivate let usernameLabel = UILabel(text: "@quenme", font: .productSansRegular(size: 12), color: .primaryGrey, alignment: .left)
+    fileprivate let locationLabel = UILabel(text: "Lagos, Nigeria", font: .productSansRegular(size: 12), color: .primaryGrey, alignment: .left)
+    fileprivate let timestampLabel = UILabel(text: "2m ago", font: .productSansRegular(size: 12), color: .primaryGrey, alignment: .left)
     fileprivate let postLabel = UILabel(text: "I was at Kaduna state yesterday after a stressful week just to relax and nature was very awesome. Getting to see these things...more", font: .productSansRegular(size: 11), color: .primaryGrey, alignment: .left)
     fileprivate let postImage = UIImageView(image: UIImage(systemName: "camera"), height: 245, cornerRadius: 6)
     fileprivate lazy var likesIconView = IconTextView(text: "25", font: .productSansRegular(size: 15), placeholderIcon: UIImage(systemName: "heart"), iconTint: .primaryGreen, iconTextAlignment: .iconLeft, iconSize: 15, textColor: .primaryGrey, textAlignment: .left, contentStackAlignment: .center)
@@ -28,9 +28,6 @@ class HomeCollectionViewCell: BaseCollectionViewCell {
     fileprivate lazy var userInfoLabelsStackview = VerticalStackView(arrangedSubviews: [nameLabel, userInfoStackview], spacing: 4, distribution: .fill, alignment: .fill)
     fileprivate lazy var userInfoAvatarLabelsStackview = HorizontalStackView(arrangedSubviews: [avatarImageView, userInfoLabelsStackview], spacing: 15, distribution: .fill, alignment: .fill)
     fileprivate let separator = UIView(height: 1, backgroundColor: .primaryGrey)
-    
-    
-    
     fileprivate lazy var containerView = UIView(subviews: [userInfoAvatarLabelsStackview, postLabel, postImage, userStatsStackview, separator])
     
     override func setup() {

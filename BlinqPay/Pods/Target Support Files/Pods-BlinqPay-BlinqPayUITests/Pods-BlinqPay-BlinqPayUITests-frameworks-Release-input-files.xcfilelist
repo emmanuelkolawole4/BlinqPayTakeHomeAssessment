@@ -1,5 +1,6 @@
 ${PODS_ROOT}/Target Support Files/Pods-BlinqPay-BlinqPayUITests/Pods-BlinqPay-BlinqPayUITests-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/BottomPopup/BottomPopup.framework
 ${BUILT_PRODUCTS_DIR}/CocoaLumberjack/CocoaLumberjack.framework
 ${BUILT_PRODUCTS_DIR}/DynamicBlurView/DynamicBlurView.framework
 ${BUILT_PRODUCTS_DIR}/HorizontalProgressBar/HorizontalProgressBar.framework

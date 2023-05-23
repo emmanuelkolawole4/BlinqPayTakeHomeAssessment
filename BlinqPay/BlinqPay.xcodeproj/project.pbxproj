@@ -8,10 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		2470BBD01CA057E5B96E4391 /* Pods_BlinqPay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1639080967ED7AD65D36283 /* Pods_BlinqPay.framework */; };
+		4C25D7C22A1CDA4300242B6B /* NewChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C25D7C12A1CDA4300242B6B /* NewChatViewController.swift */; };
+		4C25D7C42A1CDAA100242B6B /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C25D7C32A1CDAA100242B6B /* ChatView.swift */; };
 		4C7BE9F82A1BA907004E6589 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7BE9F72A1BA907004E6589 /* HomeCollectionViewCell.swift */; };
 		4C7BE9FB2A1BBBD0004E6589 /* IconTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7BE9FA2A1BBBD0004E6589 /* IconTextView.swift */; };
 		4C7BE9FD2A1BBBEF004E6589 /* IconPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7BE9FC2A1BBBEF004E6589 /* IconPosition.swift */; };
 		4C7BE9FF2A1BBC20004E6589 /* IconUILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7BE9FE2A1BBC20004E6589 /* IconUILabel.swift */; };
+		4C7BEA052A1CA62F004E6589 /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7BEA042A1CA62F004E6589 /* ChatListViewController.swift */; };
+		4C7BEA072A1CA666004E6589 /* ChatListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7BEA062A1CA666004E6589 /* ChatListView.swift */; };
+		4C7BEA092A1CA69F004E6589 /* IChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7BEA082A1CA69F004E6589 /* IChatViewModel.swift */; };
+		4C7BEA0B2A1CA6F9004E6589 /* ChatViewModelImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7BEA0A2A1CA6F9004E6589 /* ChatViewModelImpl.swift */; };
+		4C7BEA0D2A1CA944004E6589 /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7BEA0C2A1CA944004E6589 /* ChatTableViewCell.swift */; };
+		4C7BEA0F2A1CAA10004E6589 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C7BEA0E2A1CAA10004E6589 /* BaseTableViewCell.swift */; };
+		4C993EC32A1CF285006F6CCC /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C993EC22A1CF285006F6CCC /* ChatViewController.swift */; };
 		4CE23DB32A13987E00D875E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE23DB22A13987E00D875E8 /* AppDelegate.swift */; };
 		4CE23DB52A13987E00D875E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE23DB42A13987E00D875E8 /* SceneDelegate.swift */; };
 		4CE23DB72A13987E00D875E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE23DB62A13987E00D875E8 /* ViewController.swift */; };
@@ -109,10 +118,19 @@
 
 /* Begin PBXFileReference section */
 		099B37F2B5BA02C9091BD234 /* Pods_BlinqPay_BlinqPayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlinqPay_BlinqPayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C25D7C12A1CDA4300242B6B /* NewChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewChatViewController.swift; sourceTree = "<group>"; };
+		4C25D7C32A1CDAA100242B6B /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		4C7BE9F72A1BA907004E6589 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
 		4C7BE9FA2A1BBBD0004E6589 /* IconTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconTextView.swift; sourceTree = "<group>"; };
 		4C7BE9FC2A1BBBEF004E6589 /* IconPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconPosition.swift; sourceTree = "<group>"; };
 		4C7BE9FE2A1BBC20004E6589 /* IconUILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconUILabel.swift; sourceTree = "<group>"; };
+		4C7BEA042A1CA62F004E6589 /* ChatListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListViewController.swift; sourceTree = "<group>"; };
+		4C7BEA062A1CA666004E6589 /* ChatListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListView.swift; sourceTree = "<group>"; };
+		4C7BEA082A1CA69F004E6589 /* IChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IChatViewModel.swift; sourceTree = "<group>"; };
+		4C7BEA0A2A1CA6F9004E6589 /* ChatViewModelImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModelImpl.swift; sourceTree = "<group>"; };
+		4C7BEA0C2A1CA944004E6589 /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
+		4C7BEA0E2A1CAA10004E6589 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		4C993EC22A1CF285006F6CCC /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		4CE23DAF2A13987E00D875E8 /* BlinqPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlinqPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CE23DB22A13987E00D875E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CE23DB42A13987E00D875E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -239,6 +257,45 @@
 			path = IconTextView;
 			sourceTree = "<group>";
 		};
+		4C7BEA002A1CA5E4004E6589 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				4C7BEA032A1CA601004E6589 /* View Model */,
+				4C7BEA022A1CA5F8004E6589 /* Controllers */,
+				4C7BEA012A1CA5F0004E6589 /* Views */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		4C7BEA012A1CA5F0004E6589 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4C7BEA062A1CA666004E6589 /* ChatListView.swift */,
+				4C7BEA0C2A1CA944004E6589 /* ChatTableViewCell.swift */,
+				4C25D7C32A1CDAA100242B6B /* ChatView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4C7BEA022A1CA5F8004E6589 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4C7BEA042A1CA62F004E6589 /* ChatListViewController.swift */,
+				4C25D7C12A1CDA4300242B6B /* NewChatViewController.swift */,
+				4C993EC22A1CF285006F6CCC /* ChatViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4C7BEA032A1CA601004E6589 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				4C7BEA082A1CA69F004E6589 /* IChatViewModel.swift */,
+				4C7BEA0A2A1CA6F9004E6589 /* ChatViewModelImpl.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
 		4CE23DA62A13987E00D875E8 = {
 			isa = PBXGroup;
 			children = (
@@ -340,6 +397,7 @@
 				4CE23E3D2A15226600D875E8 /* CustomTextField.swift */,
 				4CE23E3F2A1522BD00D875E8 /* PickerManager.swift */,
 				4CE23E5F2A1B677B00D875E8 /* Loader.swift */,
+				4C7BEA0E2A1CAA10004E6589 /* BaseTableViewCell.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -419,6 +477,7 @@
 		4CE23E412A1B539400D875E8 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				4C7BEA002A1CA5E4004E6589 /* Chat */,
 				4CE23E7C2A1B893400D875E8 /* Home */,
 				4CE23E712A1B84AB00D875E8 /* Dashboard */,
 				4CE23E502A1B566100D875E8 /* Base */,
@@ -884,6 +943,8 @@
 				4CE23E262A1514F500D875E8 /* ViewControllerType.swift in Sources */,
 				4CE23E822A1B898400D875E8 /* HomeViewController.swift in Sources */,
 				4CE23E3A2A151FFB00D875E8 /* ValidationMessage.swift in Sources */,
+				4C25D7C42A1CDAA100242B6B /* ChatView.swift in Sources */,
+				4C7BEA072A1CA666004E6589 /* ChatListView.swift in Sources */,
 				4CE23E5E2A1B5F3800D875E8 /* LoginView.swift in Sources */,
 				4CE23E1E2A14FF4600D875E8 /* Constants.swift in Sources */,
 				4CE23E0F2A14F59200D875E8 /* Toast.swift in Sources */,
@@ -895,19 +956,24 @@
 				4C7BE9FB2A1BBBD0004E6589 /* IconTextView.swift in Sources */,
 				4CE23E3E2A15226600D875E8 /* CustomTextField.swift in Sources */,
 				4CE23E882A1B926D00D875E8 /* HomeViewModelImpl.swift in Sources */,
+				4C993EC32A1CF285006F6CCC /* ChatViewController.swift in Sources */,
 				4CE23E6A2A1B6DF600D875E8 /* AuthRemoteDatasourceImpl.swift in Sources */,
 				4CE23E7B2A1B874C00D875E8 /* DashboardViewModelImpl.swift in Sources */,
+				4C7BEA0F2A1CAA10004E6589 /* BaseTableViewCell.swift in Sources */,
 				4CE23E052A14ECB200D875E8 /* StackView.swift in Sources */,
 				4CE23E492A1B54FF00D875E8 /* IAuthViewModel.swift in Sources */,
 				4CE23E5B2A1B599700D875E8 /* BaseViewController.swift in Sources */,
 				4CE23E2F2A151E4200D875E8 /* UIView+Animations.swift in Sources */,
 				4CE23E012A14EA3E00D875E8 /* PreferenceConstants.swift in Sources */,
 				4CE23E2B2A1515FF00D875E8 /* Typealiases+Utils.swift in Sources */,
+				4C7BEA0B2A1CA6F9004E6589 /* ChatViewModelImpl.swift in Sources */,
 				4CE23E202A14FFEB00D875E8 /* UIView+AutoLayout+Utils.swift in Sources */,
+				4C7BEA092A1CA69F004E6589 /* IChatViewModel.swift in Sources */,
 				4C7BE9F82A1BA907004E6589 /* HomeCollectionViewCell.swift in Sources */,
 				4CE23E382A151FDD00D875E8 /* ValidationType.swift in Sources */,
 				4CE23E662A1B6A1900D875E8 /* BPError.swift in Sources */,
 				4CE23DB72A13987E00D875E8 /* ViewController.swift in Sources */,
+				4C25D7C22A1CDA4300242B6B /* NewChatViewController.swift in Sources */,
 				4CE23E752A1B867C00D875E8 /* DashboardDependencyContainer.swift in Sources */,
 				4CE23E4E2A1B55E400D875E8 /* AuthViewModelImpl.swift in Sources */,
 				4CE23E3C2A1521DA00D875E8 /* BaseScrollView.swift in Sources */,
@@ -928,8 +994,10 @@
 				4CE23E472A1B547B00D875E8 /* AuthDependencyContainer.swift in Sources */,
 				4CE23E842A1B89A600D875E8 /* HomeView.swift in Sources */,
 				4CE23E522A1B567200D875E8 /* BaseViewModel.swift in Sources */,
+				4C7BEA052A1CA62F004E6589 /* ChatListViewController.swift in Sources */,
 				4CE23E342A151F4A00D875E8 /* IInputValidator.swift in Sources */,
 				4CE23E622A1B68E000D875E8 /* IBaseViewModel.swift in Sources */,
+				4C7BEA0D2A1CA944004E6589 /* ChatTableViewCell.swift in Sources */,
 				4CE23E6D2A1B6E2C00D875E8 /* BaseRemoteDatasource.swift in Sources */,
 				4C7BE9FF2A1BBC20004E6589 /* IconUILabel.swift in Sources */,
 				4CE23E402A1522BD00D875E8 /* PickerManager.swift in Sources */,

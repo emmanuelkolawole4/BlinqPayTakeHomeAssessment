@@ -24,7 +24,9 @@ extension Container {
     
     var homeController: HomeViewController { resolve(HomeViewController.self)! }
     
-    var chatController: HomeViewController { resolve(HomeViewController.self)! }
+    var chatListController: ChatListViewController { resolve(ChatListViewController.self)! }
+    
+    var chatController: ChatViewController { resolve(ChatViewController.self)! }
     
     var mediaController: HomeViewController { resolve(HomeViewController.self)! }
     

@@ -15,6 +15,7 @@ def utilityPods
   pod 'PopupDialog'
   pod 'HorizontalProgressBar'
   pod 'lottie-ios', '3.1.1'
+  pod 'BottomPopup'
 end
 
 target 'BlinqPay' do
