@@ -8,5 +8,5 @@
 import Foundation
 
 enum AuthNavRoute {
-    case signin
+    case login, home
 }
