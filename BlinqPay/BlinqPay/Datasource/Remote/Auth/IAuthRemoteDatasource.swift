@@ -10,7 +10,7 @@ import RxSwift
 import Alamofire
 
 protocol IAuthRemoteDatasource {
-    func signin(params: Parameters) -> Observable<BPUserResponse>
+    func createUser(params: Parameters, completion: @escaping ((Result<AuthNavRoute, Error>) -> Void))
 }
 
 

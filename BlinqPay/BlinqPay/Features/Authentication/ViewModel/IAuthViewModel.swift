@@ -14,6 +14,6 @@ protocol IAuthViewModel {
     
     var authErrorMessage: PublishSubject<String> { get }
     
-    func signin(username: String)
+    func login(with username: String)
     
 }

@@ -21,32 +21,24 @@ class AuthViewModelImpl: BaseViewModel, IAuthViewModel {
         self.authRemote = authRemote
     }
     
-    override func didAppear() {
-        super.didAppear()
-//        if preference.user.isNotNil {
-//            authNavRoute.onNext(.dashboard)
-//        }
-    }
-    
-    func signin(username: String) {
+    func login(with username: String) {
         let params = [
+            "bio": "Always curious to learn new stuff",
+            "name": "Brooklyn Simmons",
+            "photo": "https://firebasestorage.googleapis.com/vo/b/blynq-13e9a.appspot.com/o/default_user_img.png?alt=media&token=8190d4c3-8a93-4476-a37b-bc3faa74e71d",
+            "userId": "2tJgiVZWQRczkDqqjzrG",
             "username": username
         ]
-        subscribe(authRemote.signin(params: params), success: { [weak self] authRes in
-            self?.handleAuthenticationResponse(authRes)
-        })
+        
+        authRemote.createUser(params: params) { [weak self] result in
+            switch result {
+            case .success(let res):
+                self?.authNavRoute.onNext(res)
+            case .failure(let error):
+                print(error.localizedDescription)
+                self?.authErrorMessage.onNext(error.localizedDescription)
+            }
+        }
     }
     
-    fileprivate func handleAuthenticationResponse(_ authRes: BPUserResponse) {
-//        let roles = authRes.authority?.roles ?? []
-//        if roles.isEmpty || !roles.contains(where: { $0.insensitiveEquals("PARTNER ADMIN") || $0.insensitiveEquals("FRANCHISE ADMIN") }) {
-//            authErrorMessage.onNext(.AUTHENTICATION_ROLES_ERROR)
-//        } else if authRes.user?.company.isNil ?? false {
-//            authErrorMessage.onNext(.AUTHENTICATION_COMPANY_ERROR)
-//        } else {
-//            preference.user = authRes.user
-//            preference.accessToken = authRes.token.orEmpty
-//            authNavRoute.onNext(.dashboard)
-//        }
-    }
 }
