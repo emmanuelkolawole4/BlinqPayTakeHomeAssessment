@@ -31,7 +31,7 @@ class LoginView: BaseScrollView {
     
     fileprivate func handleLogInButtonTapped() {
         if usernameTextField.isValid {
-            loginTapHandler?(usernameTextField.text)
+            loginTapHandler?(usernameTextField.text) 
         }
     }
 
